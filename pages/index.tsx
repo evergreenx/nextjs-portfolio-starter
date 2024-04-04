@@ -37,37 +37,26 @@ export default function Page() {
           </div>
         </div>
         <p className="text-black font-medium my-2">
-        
-        Hi , 
+          Hi , i am Evergreen. i have a thing for design and code starting from
+          way back in 2018 when i started my journey as an enginner . I realize
+          most developers could not build pixel perfect applications and i took
+          it upon myself to become thta beckon of light in every team i find
+          myself.
         </p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-        pariatur amet ullam? Suscipit, cumque eius ea tenetur illo reprehenderit
-        ullam, quisquam iste sed aut recusandae fugiat nesciunt impedit neque
-        in? Et molestias exercitationem repellat, neque maiores dolores
-        voluptates quis? Ipsam ad iste possimus error assumenda, optio voluptate
-        adipisci illo dignissimos harum debitis nobis tempore quam saepe maiores
-
-
-
-
-
-
-
-
 
         <div className="my-20">
-
-
-            <p>
-                i just thought of adding a link to recommdations from my previous team mate across the globe: <a
-                
-                className='text-blue-500 underline'
-                target='_blank'
-                href='https://www.linkedin.com/in/ido-dickson-evergreen/details/recommendations/?detailScreenTabIndex=0'>Link</a>
-            </p>
+          <p>
+            i just thought of adding a link to recommdations from my previous
+            team mate across the globe:{' '}
+            <a
+              className="text-blue-500 underline"
+              target="_blank"
+              href="https://www.linkedin.com/in/ido-dickson-evergreen/details/recommendations/?detailScreenTabIndex=0"
+            >
+              Link
+            </a>
+          </p>
         </div>
-
-
 
         <p className="my-20">
           u might wanna know ho to do the page transition that was used in the
