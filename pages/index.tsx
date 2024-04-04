@@ -39,7 +39,7 @@ export default function Page() {
         <p className="text-black font-medium my-2">
           Hi , i am Evergreen. i have a thing for design and code starting from
           way back in 2018 when i started my journey as an engineer . I realize
-          most developers could not build pixel perfect applications and i took
+          most developers could not build pixel perfect applications and
           I made it my mission to fill that gap and illuminate every team I join with my expertise.
         </p>
         Few projects i am absolutly proud of building
