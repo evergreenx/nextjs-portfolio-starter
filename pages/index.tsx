@@ -56,7 +56,7 @@ export default function Page() {
           my expertise.
         </p>
         Few projects i am absolutly proud of building
-        <ul>
+        <div>
           <li className="my-2">
             <a
               className="text-blue-500 underline"
@@ -77,10 +77,10 @@ export default function Page() {
             :A platform designed to seamlessly transform code snippets and text
             into visually captivating and shareable screenshots.
           </li>
-        </ul>
+        </div>
         I love sharing my knowledge and insights with others. Here are a few
         examples:
-        <ul>
+        <div>
           <li className="my-2">
             Started a series of playlist on youtube about working with{' '}
             <a
@@ -108,7 +108,24 @@ export default function Page() {
               Link to slide
             </a>
           </li>
-        </ul>
+        </div>
+        <div className="">
+          I'm particularly excited about the opportunity to contribute to
+          Tailwind Labs' mission of pushing the boundaries of UI design and
+          engineering. I look forward to:
+          <li className="my-2">
+            Designing and building new components and templates for Tailwind UI,
+            elevating the platform's capabilities.
+          </li>
+          <li className="my-2">
+            Exploring upcoming platform features to prototype innovative
+            solutions and enhance user experiences.
+          </li>
+          <li>
+            Collaborating with the team to create internal design tools that
+            streamline our workflow and boost productivity.
+          </li>
+        </div>
         <div className="my-10">
           <p>
             Curious about what my teammates have to say about working with me?
