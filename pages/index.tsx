@@ -9,9 +9,9 @@ export default function Page() {
   const ref = useRef(null)
   const isInView = useInView(ref)
 
-  useEffect(() => {
-    console.log('Element is in view: ', isInView)
-  }, [isInView])
+//   useEffect(() => {
+//     console.log('Element is in view: ', isInView)
+//   }, [isInView])
 
   return (
     <Layout>
@@ -38,9 +38,9 @@ export default function Page() {
         </div>
         <p className="text-black font-medium my-2">
           Hi , i am Evergreen. i have a thing for design and code starting from
-          way back in 2018 when i started my journey as an enginner . I realize
+          way back in 2018 when i started my journey as an engineer . I realize
           most developers could not build pixel perfect applications and i took
-          it upon myself to become thta beckon of light in every team i find
+          it upon myself to become that beckon of light in every team i find
           myself.
         </p>
 
@@ -59,11 +59,13 @@ export default function Page() {
         </div>
 
         <p className="my-20">
-          u might wanna know ho to do the page transition that was used in the
-          page, you could check it out on youtube 😀 :{' '}
+          You might wanna know how to do the page transition that was used in this
+          page, you could check it out on my youtube 😀 :{' '}
           <a
             href="https://youtu.be/kWfiIvoHIsI?si=A1zO95-hbIXdiOL_"
             target="_blank"
+            className="text-blue-500 underline"
+            
           >
             YT
           </a>
