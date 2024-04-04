@@ -9,9 +9,9 @@ export default function Page() {
   const ref = useRef(null)
   const isInView = useInView(ref)
 
-//   useEffect(() => {
-//     console.log('Element is in view: ', isInView)
-//   }, [isInView])
+  //   useEffect(() => {
+  //     console.log('Element is in view: ', isInView)
+  //   }, [isInView])
 
   return (
     <Layout>
@@ -43,10 +43,25 @@ export default function Page() {
           it upon myself to become that beckon of light in every team i find
           myself.
         </p>
+        Few projects i am absolutly proud of building
+        <ul>
+          <li className='my-2'>
+            <a className="text-blue-500 underline" href="https://coollors.idoevergreen.me/">
+              Coollors
+            </a>
+            : The super fast color palettes generator!
+          </li>
 
-        <div className="my-20">
+          <li className='my-2'>
+            <a className="text-blue-500 underline" href="https://snipxe.idoevergreen.me/create">
+              Snipxe
+            </a>
+            :A platform designed to seamlessly transform code snippets and text into visually captivating and shareable screenshots.
+          </li>
+        </ul>
+        <div className="my-10">
           <p>
-            i just thought of adding a link to recommdations from my previous
+            I just thought of adding a link to recommdations from my previous
             team mate across the globe:{' '}
             <a
               className="text-blue-500 underline"
@@ -56,16 +71,15 @@ export default function Page() {
               Link
             </a>
           </p>
+          pu
         </div>
-
         <p className="my-20">
-          You might wanna know how to do the page transition that was used in this
-          page, you could check it out on my youtube 😀 :{' '}
+          You might wanna know how to do the page transition that was used in
+          this page, you could check it out on my youtube 😀 :{' '}
           <a
             href="https://youtu.be/kWfiIvoHIsI?si=A1zO95-hbIXdiOL_"
             target="_blank"
             className="text-blue-500 underline"
-            
           >
             YT
           </a>
