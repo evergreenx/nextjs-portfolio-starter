@@ -37,10 +37,8 @@ export default function Page() {
           </div>
         </div>
         <p className="text-black font-medium my-2">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni
-          assumenda aliquid nemo nobis aliquam quasi, sunt minima dolor
-          explicabo ullam? Natus quos harum deleniti rerum corrupti quaerat
-          officia sit sunt.
+        
+        Hi , 
         </p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
         pariatur amet ullam? Suscipit, cumque eius ea tenetur illo reprehenderit
@@ -48,9 +46,32 @@ export default function Page() {
         in? Et molestias exercitationem repellat, neque maiores dolores
         voluptates quis? Ipsam ad iste possimus error assumenda, optio voluptate
         adipisci illo dignissimos harum debitis nobis tempore quam saepe maiores
+
+
+
+
+
+
+
+
+
+        <div className="my-20">
+
+
+            <p>
+                i just thought of adding a link to recommdations from my previous team mate across the globe: <a
+                
+                className='text-blue-500 underline'
+                target='_blank'
+                href='https://www.linkedin.com/in/ido-dickson-evergreen/details/recommendations/?detailScreenTabIndex=0'>Link</a>
+            </p>
+        </div>
+
+
+
         <p className="my-20">
-          if u might be intrested in the page transition that was used in the
-          page , you could check it out on youtube 😀 :{' '}
+          u might wanna know ho to do the page transition that was used in the
+          page, you could check it out on youtube 😀 :{' '}
           <a
             href="https://youtu.be/kWfiIvoHIsI?si=A1zO95-hbIXdiOL_"
             target="_blank"
