@@ -40,8 +40,7 @@ export default function Page() {
           Hi , i am Evergreen. i have a thing for design and code starting from
           way back in 2018 when i started my journey as an engineer . I realize
           most developers could not build pixel perfect applications and i took
-          it upon myself to become that beckon of light in every team i find
-          myself.
+          I made it my mission to fill that gap and illuminate every team I join with my expertise.
         </p>
         Few projects i am absolutly proud of building
         <ul>
@@ -61,8 +60,7 @@ export default function Page() {
         </ul>
         <div className="my-10">
           <p>
-            I just thought of adding a link to recommdations from my previous
-            team mate across the globe:{' '}
+          Curious about what my teammates have to say about working with me? Check out recommendations from across the globe: 
             <a
               className="text-blue-500 underline"
               target="_blank"
@@ -71,7 +69,7 @@ export default function Page() {
               Link
             </a>
           </p>
-          pu
+        
         </div>
         <p className="my-20">
           You might wanna know how to do the page transition that was used in
