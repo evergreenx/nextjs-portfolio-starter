@@ -15,7 +15,19 @@ export default function Page() {
 
   return (
     <Layout>
-      <div ref={ref} className="container lg:w-[65ch] w-full mx-auto my-20">
+      <motion.div
+        ref={ref}
+        className="container lg:w-[65ch] w-full mx-auto my-20"
+        initial={{
+          opacity: 0
+        }}
+        animate={{
+          opacity: 1,
+          transition: {
+            delay: 0.8
+          }
+        }}
+      >
         <div className="header flex items-center justify-between">
           <h1 className="text-2xl">Ido Evergreen</h1>
 
@@ -39,28 +51,68 @@ export default function Page() {
         <p className="text-black font-medium my-2">
           Hi , i am Evergreen. i have a thing for design and code starting from
           way back in 2018 when i started my journey as an engineer . I realize
-          most developers could not build pixel perfect applications and
-          I made it my mission to fill that gap and illuminate every team I join with my expertise.
+          most developers could not build pixel perfect applications and I made
+          it my mission to fill that gap and illuminate every team I join with
+          my expertise.
         </p>
         Few projects i am absolutly proud of building
         <ul>
-          <li className='my-2'>
-            <a className="text-blue-500 underline" href="https://coollors.idoevergreen.me/">
+          <li className="my-2">
+            <a
+              className="text-blue-500 underline"
+              href="https://coollors.idoevergreen.me/"
+            >
               Coollors
             </a>
             : The super fast color palettes generator!
           </li>
 
-          <li className='my-2'>
-            <a className="text-blue-500 underline" href="https://snipxe.idoevergreen.me/create">
+          <li className="my-2">
+            <a
+              className="text-blue-500 underline"
+              href="https://snipxe.idoevergreen.me/create"
+            >
               Snipxe
             </a>
-            :A platform designed to seamlessly transform code snippets and text into visually captivating and shareable screenshots.
+            :A platform designed to seamlessly transform code snippets and text
+            into visually captivating and shareable screenshots.
+          </li>
+        </ul>
+        I love sharing my knowledge and insights with others. Here are a few
+        examples:
+        <ul>
+          <li className="my-2">
+            Started a series of playlist on youtube about working with{' '}
+            <a
+              className="text-blue-500 underline"
+              href="https://www.youtube.com/playlist?list=PLtHuuoewcjnQqA-rG8x3PmuGNodX5NTQu"
+            >
+              GSAP
+            </a>{' '}
+            and{' '}
+            <a
+              className="text-blue-500 underline"
+              href="https://www.youtube.com/playlist?list=PLtHuuoewcjnTcXKr-f1rZBr8hIDKUVJk9"
+            >
+              Framer Motion
+            </a>
+          </li>
+
+          <li className="my-2">
+            Gave a talk about typescript in google developer festival conference
+            :{' '}
+            <a
+              className="text-blue-500 underline"
+              href="https://docs.google.com/presentation/d/184Y_9UOLzyAb1ravWB9-rDmKZFUOJQRB0PxZXQYxjyM/edit?usp=sharing"
+            >
+              Link to slide
+            </a>
           </li>
         </ul>
         <div className="my-10">
           <p>
-          Curious about what my teammates have to say about working with me? Check out recommendations from across the globe: 
+            Curious about what my teammates have to say about working with me?
+            Check out recommendations from across the globe:
             <a
               className="text-blue-500 underline"
               target="_blank"
@@ -69,7 +121,6 @@ export default function Page() {
               Link
             </a>
           </p>
-        
         </div>
         <p className="my-20">
           You might wanna know how to do the page transition that was used in
@@ -82,7 +133,7 @@ export default function Page() {
             YT
           </a>
         </p>
-      </div>
+      </motion.div>
     </Layout>
   )
 }
