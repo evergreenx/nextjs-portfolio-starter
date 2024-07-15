@@ -49,14 +49,24 @@ export default function Page() {
           </div>
         </div>
         <p className="text-black font-medium my-2">
-          Hi , i am Evergreen. i have a thing for design and code starting from
-          way back in 2018 when i started my journey as an engineer . I realize
-          most developers could not build pixel perfect applications and I made
-          it my mission to fill that gap and illuminate every team I join with
+          Hi, I am Evergreen. I have a thing for design and code starting from
+          way back in 2018 when I started my journey as an engineer. I realize
+          most developers could not build pixel-perfect applications and I made
+          it is my mission to fill that gap and illuminate every team I join with
           my expertise.
         </p>
-        Few projects i am absolutly proud of building
+        Few projects I am proud of building
         <div>
+
+           <li className="my-2">
+            <a
+              className="text-blue-500 underline"
+              href="https://zap.africa/"
+            >
+              Zap
+            </a>
+            : Led the team to build this Crypto exchange with a strong emphasis on both web and mobile user interfaces.
+          </li>
           <li className="my-2">
             <a
               className="text-blue-500 underline"
@@ -64,7 +74,7 @@ export default function Page() {
             >
               Coollors
             </a>
-            : The super fast color palettes generator!
+            : The super fast color palette generator!
           </li>
 
           <li className="my-2">
@@ -74,7 +84,7 @@ export default function Page() {
             >
               Snipxe
             </a>
-            :A platform designed to seamlessly transform code snippets and text
+            : A platform designed to transform code snippets and text seamlessly
             into visually captivating and shareable screenshots.
           </li>
         </div>
@@ -99,7 +109,7 @@ export default function Page() {
           </li>
 
           <li className="my-2">
-            Gave a talk about typescript in google developer festival conference
+            Gave a talk about typescripts at the Google Developer Festival conference
             :{' '}
             <a
               className="text-blue-500 underline"
@@ -111,19 +121,15 @@ export default function Page() {
         </div>
         <div className="">
           I'm particularly excited about the opportunity to contribute to
-          Tailwind Labs' mission of pushing the boundaries of UI design and
-          engineering. I look forward to:
+       Superwall. I look forward to:
           <li className="my-2">
-            Designing and building new components and templates for Tailwind UI,
-            elevating the platform's capabilities.
+      Design and build new features and functionalities, leveraging my skills in React, TypeScript, and Next.js.
           </li>
           <li className="my-2">
-            Exploring upcoming platform features to prototype innovative
-            solutions and enhance user experiences.
+     Collaborate with a global team to innovate and deliver top-tier solutions.
           </li>
           <li>
-            Collaborating with the team to create internal design tools that
-            streamline our workflow and boost productivity.
+Contribute to a company culture that values creativity, growth, and fun.
           </li>
         </div>
         <div className="my-10">
@@ -141,7 +147,7 @@ export default function Page() {
         </div>
         <p className="my-20">
           You might wanna know how to do the page transition that was used in
-          this page, you could check it out on my youtube 😀 :{' '}
+          this site, you could check it out on my youtube 😀 :{' '}
           <a
             href="https://youtu.be/kWfiIvoHIsI?si=A1zO95-hbIXdiOL_"
             target="_blank"
