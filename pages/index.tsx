@@ -103,9 +103,18 @@ export default function Page() {
               Framer Motion
             </a>
           </li>
-
+  <li className="my-2">
+            Gave a talk on Optimizing Web Animation for Performance
+            :{' '}
+            <a
+              className="text-blue-500 underline"
+              href="https://docs.google.com/presentation/d/1y6w4gSQi-fg5HqLDQBZQm3d3IB46Ksdu"
+            >
+              Link to slide
+            </a>
+          </li>
           <li className="my-2">
-            Gave a talk about typescripts at the Google Developer Festival conference
+            Gave a talk about typescript at the Google Developer Festival conference
             :{' '}
             <a
               className="text-blue-500 underline"
@@ -114,6 +123,8 @@ export default function Page() {
               Link to slide
             </a>
           </li>
+
+          
         </div>
         <div className="">
           I'm particularly excited about the opportunity to contribute to
