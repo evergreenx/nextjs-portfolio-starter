@@ -49,11 +49,7 @@ export default function Page() {
           </div>
         </div>
         <p className="text-black font-medium my-2">
-          Hi, I am Evergreen. I have a thing for design and code starting from
-          way back in 2018 when I started my journey as an engineer. I realize
-          most developers could not build pixel-perfect applications and I made
-          it is my mission to fill that gap and illuminate every team I join with
-          my expertise.
+          Hi, I am Evergreen. Crafting memorable interfaces with a deep attention to detail. I dedicate most of my time to continuous learning and refining my skill set.
         </p>
         Few projects I am proud of building
         <div>
@@ -92,7 +88,7 @@ export default function Page() {
         examples:
         <div>
           <li className="my-2">
-            Started a series of playlist on youtube about working with{' '}
+            Started a series of playlists on YouTube about working with{' '}
             <a
               className="text-blue-500 underline"
               href="https://www.youtube.com/playlist?list=PLtHuuoewcjnQqA-rG8x3PmuGNodX5NTQu"
